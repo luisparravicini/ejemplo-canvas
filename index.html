@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Particulas cayendo (ejemplo del uso de canvas en html5)</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+<link type="text/css" rel="stylesheet" href="main.css">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>
+<script type="text/javascript" src="init.js"></script>
+<script type="text/javascript" src="screen.js"></script>
+<script type="text/javascript" src="flake.js"></script>
+<script type="text/javascript" src="snowfall.js"></script>
+<script type="text/javascript" src="solid.js"></script>
+<script type="text/javascript" src="falling.js"></script>
+</head>
+
+<body>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-2740686-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
+  })();
+</script>
+
+
+<div id="back">
+  <br><a href="/blog/2010/02/18/">Volver al blog</a>
+</div>
+
+<div id="content">
+  <div id="container">
+    <h3>Ejemplo del uso de canvas en html5</h3>    
+    <canvas id="c" width="320" height="240" style="background: black; border:1px solid #404040"></canvas>
+
+    <form>
+      <div>
+        <label for="kind">Particula</label>
+        <select id="kind">
+          <option value="GStrategy">arena</option>
+          <option value="CoralStrategy">coral</option>
+        </select>
+      </div>
+
+      <div>
+        <input type="button" id="pause_play" value="Pausar"/>
+      </div>
+    </form>
+
+    <div id="log" style="display: none; width: 450px; height: 200px; overflow: scroll"></div>
+    <script type="text/javascript">$(init())</script>
+  </div>
+
+  <div id="adsense1">
+<script type="text/javascript"><!--
+google_ad_client = "pub-9525473056280889";
+/* ktulu-sand */
+google_ad_slot = "3850469803";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+  </div>
+</div>
+
+</body>
+</html>

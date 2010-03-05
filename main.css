@@ -1,0 +1,39 @@
+body {
+  font-family:Helvetica,Arial,sans-serif;
+  font-size:12px;
+  margin:0;
+}
+
+#back {
+  background:#333;
+  padding-bottom:15px;
+}
+
+#back a {
+  color:#ccc;
+  margin-left:15px;
+  text-decoration: none;
+}
+
+h3 {
+  font-weight: normal;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#content {
+  margin-top: 40px;
+}
+
+#container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 340px;
+}
+
+#container form div {
+  margin-bottom: 5px;
+}
+
+#adsense1 {
+}
