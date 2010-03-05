@@ -3,3 +3,5 @@ Un ejemplo del uso de canvas en HTML5
 Caen particulas de la parte superior de la pantalla y dependendiendo del comportamiento seleccionado es como interactuan con las particulas que cayeron antes. 
 
 El post con mas informacion esta en http://ktulu.com.ar/blog/2010/03/05/html5-usando-el-canvas/ y el ejemplo se puede ver andando en http://ktulu.com.ar/sand/
+
+NO funciona con IE
